@@ -1,0 +1,28 @@
+current directory: C:/Users/dotdo/OneDrive/ドキュメント/GitHub/testRubyAPI/vendor/bundle/ruby/3.4.0/gems/rbs-3.6.1/ext/rbs_extension
+C:/Ruby/Ruby34-x64/bin/ruby.exe extconf.rb
+checking for whether -std=gnu99 is accepted as CFLAGS... yes
+creating Makefile
+
+current directory: C:/Users/dotdo/OneDrive/ドキュメント/GitHub/testRubyAPI/vendor/bundle/ruby/3.4.0/gems/rbs-3.6.1/ext/rbs_extension
+make DESTDIR\= sitearchdir\=./.gem.20250724-19304-rfmdzo sitelibdir\=./.gem.20250724-19304-rfmdzo clean
+
+current directory: C:/Users/dotdo/OneDrive/ドキュメント/GitHub/testRubyAPI/vendor/bundle/ruby/3.4.0/gems/rbs-3.6.1/ext/rbs_extension
+make DESTDIR\= sitearchdir\=./.gem.20250724-19304-rfmdzo sitelibdir\=./.gem.20250724-19304-rfmdzo
+generating rbs_extension-x64-mingw-ucrt.def
+compiling constants.c
+compiling lexer.c
+compiling lexstate.c
+compiling location.c
+compiling main.c
+compiling parser.c
+compiling parserstate.c
+compiling ruby_objs.c
+compiling unescape.c
+linking shared-object rbs_extension.so
+
+current directory: C:/Users/dotdo/OneDrive/ドキュメント/GitHub/testRubyAPI/vendor/bundle/ruby/3.4.0/gems/rbs-3.6.1/ext/rbs_extension
+make DESTDIR\= sitearchdir\=./.gem.20250724-19304-rfmdzo sitelibdir\=./.gem.20250724-19304-rfmdzo install
+/usr/bin/install -c -m 0755 rbs_extension.so ./.gem.20250724-19304-rfmdzo
+
+current directory: C:/Users/dotdo/OneDrive/ドキュメント/GitHub/testRubyAPI/vendor/bundle/ruby/3.4.0/gems/rbs-3.6.1/ext/rbs_extension
+make DESTDIR\= sitearchdir\=./.gem.20250724-19304-rfmdzo sitelibdir\=./.gem.20250724-19304-rfmdzo clean

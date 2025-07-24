@@ -1,0 +1,30 @@
+current directory: C:/Users/dotdo/OneDrive/ドキュメント/GitHub/testRubyAPI/vendor/bundle/ruby/3.4.0/gems/json-2.13.0/ext/json/ext/generator
+C:/Ruby/Ruby34-x64/bin/ruby.exe extconf.rb
+checking for whether -std=c99 is accepted as CFLAGS... yes
+*** extconf.rb failed ***
+Could not create Makefile due to some reason, probably lack of necessary
+libraries and/or headers.  Check the mkmf.log file for more details.  You may
+need configuration options.
+
+Provided configuration options:
+	--with-opt-dir
+	--without-opt-dir
+	--with-opt-include=${opt-dir}/include
+	--without-opt-include
+	--with-opt-lib=${opt-dir}/lib
+	--without-opt-lib
+	--with-make-prog
+	--without-make-prog
+	--srcdir=.
+	--curdir
+	--ruby=C:/Ruby/Ruby34-x64/bin/$(RUBY_BASE_NAME)
+	--enable-generator-use-simd
+	--disable-generator-use-simd
+extconf.rb:12:in 'Kernel#load': cannot load such file -- C:/Users/dotdo/OneDrive/?h?L???????g/GitHub/testRubyAPI/vendor/bundle/ruby/3.4.0/gems/json-2.13.0/ext/json/ext/generator/../simd/conf.rb (LoadError)
+	from extconf.rb:12:in '<main>'
+
+To see why this extension failed to compile, please check the mkmf.log which can be found here:
+
+  C:/Users/dotdo/OneDrive/ドキュメント/GitHub/testRubyAPI/vendor/bundle/ruby/3.4.0/extensions/x64-mingw-ucrt/3.4.0/json-2.13.0/mkmf.log
+
+extconf failed, exit code 1
