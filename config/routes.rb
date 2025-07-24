@@ -9,6 +9,5 @@ Rails.application.routes.draw do
   # root "posts#index"
 
 
-  resource :article, only: [:index, :show, :create, :update, :destroy]
+  resources :article
 end
-

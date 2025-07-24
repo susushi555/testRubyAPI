@@ -4,7 +4,7 @@ class ArticleController < ApplicationController
   end
 
   def show
-    render json: Article.find(params[:id])
+    render json: Article.find(params[:title])
   end
 
   def create
@@ -13,13 +13,13 @@ class ArticleController < ApplicationController
   end
 
   def update
-    article = Article.find(params[:id])
+    article = Article.find(params[:title])
     article.update!(article_params)
     render json: post
   end
 
   def destroy
-    Article.find(params[:id]).destroy
+    Article.find(params[:title]).destroy
     head :no_content
   end
 
